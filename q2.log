@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2025-02-10T12:22:48.584666">
+  <info>
+    Q2 started, deployDir=/AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:49.856958" lifespan="1248ms">
+  <version>
+    jPOS 2.1.9 master/0060f93 (2023-12-22 21:41:39 UYT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:49.870273" lifespan="5ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/01_logger.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:49.893376" lifespan="22ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/02_mux_hsm.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:49.900856" lifespan="6ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/03_efs_global_data.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:49.925528" lifespan="23ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/16_channel_hitachi1.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:49.941951" lifespan="15ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/20_mux_rupay1.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:49.947135" lifespan="4ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/23_mux_worldline1.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:49.952165" lifespan="4ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/24_mux_hitachi1.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.017201" lifespan="64ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/30_txnmgr_main.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.079874" lifespan="62ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/31_txnmgr_rupay1.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.132529" lifespan="52ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/34_txnmgr_worldline1.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.205044" lifespan="72ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/35_txnmgr_titan.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.244183" lifespan="38ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/36_txnmgr_middleware.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.283009" lifespan="38ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/37_txnmgr_hitachi1.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.301001" lifespan="17ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/50_server_POS.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.310778" lifespan="9ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/94_logonmanager_hitachi1.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:50.327762" lifespan="16ms">
+  <info>
+    deploy: /AtomMiddleware/Middleware_Pre_UAT/Middleware/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="in.atomtech.mw.database.EFSGlobalData" at="2025-02-10T12:22:50.340454">
+  <info>
+    In setDEK
+  </info>
+</log>
+<log realm="stderr" at="2025-02-10T12:22:50.739865" lifespan="549ms">
+    SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+    SLF4J: Defaulting to no-operation (NOP) logger implementation
+    SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+    Feb 10, 2025 12:22:50 PM org.hibernate.Version logVersion
+    INFO: HHH000412: Hibernate ORM core version 5.5.4.Final
+</log>
+<log realm="stderr" at="2025-02-10T12:22:51.751642" lifespan="502ms">
+    Feb 10, 2025 12:22:51 PM org.hibernate.cache.ehcache.internal.EhcacheRegionFactory <init>
+    WARN: HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+    Feb 10, 2025 12:22:51 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+    INFO: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+    Feb 10, 2025 12:22:51 PM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+    INFO: HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://ATOMMWDB:3306/efs_2?autoReconnect=true
+    Feb 10, 2025 12:22:51 PM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+    INFO: HHH10001001: Connection properties: {password=****, user=efs_2}
+    Feb 10, 2025 12:22:51 PM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+    INFO: HHH10001003: Autocommit mode: false
+    MLog initialization issue: slf4j found no binding or threatened to use its (dangerously silent) NOPLogger. We consider the slf4j library not found.
+    Feb 10, 2025 12:22:51 PM com.mchange.v2.log.MLog
+    INFO: MLog clients using java 1.4+ standard logging.
+    Feb 10, 2025 12:22:51 PM com.mchange.v2.c3p0.C3P0Registry
+    INFO: Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+    Feb 10, 2025 12:22:51 PM org.hibernate.c3p0.internal.C3P0ConnectionProvider configure
+    INFO: HHH10001007: JDBC isolation level: READ_COMMITTED
+</log>
+<log realm="stderr" at="2025-02-10T12:22:52.267181" lifespan="507ms">
+    Feb 10, 2025 12:22:51 PM com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource
+    INFO: Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@55d405c4 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ce701caf [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 2s38lhb81u7mp57yynowm|5e155062, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 300, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 300, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@2c6e13d7 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 2s38lhb81u7mp57yynowm|5c81c28e, jdbcUrl -> jdbc:mysql://ATOMMWDB:3306/efs_2?autoReconnect=true, properties -> {password=******, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 2s38lhb81u7mp57yynowm|602f06bd, numHelperThreads -> 3 ]
+</log>
+<log realm="stderr" at="2025-02-10T12:22:53.147854" lifespan="500ms">
+    Feb 10, 2025 12:22:52 PM org.hibernate.dialect.Dialect <init>
+    INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    Feb 10, 2025 12:22:52 PM org.hibernate.envers.boot.internal.EnversServiceImpl configure
+    INFO: Envers integration enabled? : true
+</log>
+<log realm="stderr" at="2025-02-10T12:22:54.302457" lifespan="501ms">
+    Feb 10, 2025 12:22:53 PM org.hibernate.validator.internal.util.Version <clinit>
+    INFO: HV000001: Hibernate Validator 6.0.20.Final
+</log>
+<log realm="in.atomtech.mw.database.EFSGlobalData" at="2025-02-10T12:22:55.255331">
+  <info>
+    DB instantiated. Before DB.Open()
+  </info>
+</log>
+<log realm="in.atomtech.mw.database.EFSGlobalData" at="2025-02-10T12:22:55.323692">
+  <info>
+    Starting transaction to fetch dek from database
+  </info>
+</log>
+<log realm="in.atomtech.mw.database.EFSGlobalData" at="2025-02-10T12:22:55.532089">
+  <info>
+    DEK [indexKEK=0401, DEKEncryptedByKEK=a103655bb883050ca103655bb883050ca103655bb883050ca103655bb883050c2cf2015557c6d854, lastUpdatedTimestamp=2019-07-13 13:59:00.0]
+  </info>
+</log>
+<log realm="in.atomtech.mw.database.EFSGlobalData" at="2025-02-10T12:22:55.532605">
+  <info>
+    key = 12345678123456781234567812345678
+  </info>
+</log>
+<log realm="txnmgr-main" at="2025-02-10T12:22:55.561">
+  <info>
+    start Thread[Thread-12,5,main]
+  </info>
+</log>
+<log realm="txnmgr-rupay1" at="2025-02-10T12:22:55.565189">
+  <info>
+    start Thread[Thread-17,5,main]
+  </info>
+</log>
+<log realm="txnmgr-worldline1" at="2025-02-10T12:22:55.566985">
+  <info>
+    start Thread[Thread-22,5,main]
+  </info>
+</log>
+<log realm="txnmgr-titan" at="2025-02-10T12:22:55.568652">
+  <info>
+    start Thread[Thread-27,5,main]
+  </info>
+</log>
+<log realm="txnmgr-middleware" at="2025-02-10T12:22:55.572283">
+  <info>
+    start Thread[Thread-32,5,main]
+  </info>
+</log>
+<log realm="txnmgr-hitachi1" at="2025-02-10T12:22:55.574159">
+  <info>
+    start Thread[Thread-37,5,main]
+  </info>
+</log>
+<log realm="txnmgr-main" at="2025-02-10T12:22:55.583631">
+  <info>
+    start Thread[Thread-13,5,main]
+  </info>
+</log>
+<log realm="txnmgr-rupay1" at="2025-02-10T12:22:55.584136">
+  <info>
+    start Thread[Thread-18,5,main]
+  </info>
+</log>
+<log realm="txnmgr-worldline1" at="2025-02-10T12:22:55.584472">
+  <info>
+    start Thread[Thread-23,5,main]
+  </info>
+</log>
+<log realm="txnmgr-titan" at="2025-02-10T12:22:55.584780">
+  <info>
+    start Thread[Thread-28,5,main]
+  </info>
+</log>
+<log realm="txnmgr-middleware" at="2025-02-10T12:22:55.585072">
+  <info>
+    start Thread[Thread-33,5,main]
+  </info>
+</log>
+<log realm="txnmgr-hitachi1" at="2025-02-10T12:22:55.585425">
+  <info>
+    start Thread[Thread-38,5,main]
+  </info>
+</log>
+<log realm="server-POS.server" at="2025-02-10T12:22:55.668172">
+  <iso-server>
+    listening on port 8002
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2025-02-10T12:22:55.668866">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="in.atomtech.mw.network.HitachiLogonTask" at="2025-02-10T12:22:55.672584">
+  <info>
+    logonCheckStatus :false
+  </info>
+</log>
+<log realm="in.atomtech.mw.network.HitachiLogonTask" at="2025-02-10T12:22:55.672892">
+  <info>
+    logonCheckStatus :false
+  </info>
+</log>
+<log realm="Q2.system" at="2025-02-10T12:22:55.685916" lifespan="14ms">
+  <info>
+    created deploy/shutdown.xml
+    modified deploy/shutdown.xml
+    removed deploy/shutdown.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2025-02-10T12:22:55.714426">
+  <info>
+           OS: Linux (3.10.0-1160.83.1.el7.x86_64)
+         Java: 14 (Oracle Corporation) AES-secure
+  environment: default
+ process name: 13663@MIDDLEWARE-UAT
+    user name: root
+         host: MIDDLEWARE-UAT/10.5.50.69
+          cwd: /AtomMiddleware/Middleware_Pre_UAT/Middleware
+   free space: 7.7 GiB
+      version: 2.1.9 (0060f93)
+     instance: e4d412d4-a25f-4c2d-8b13-f234d43e2277
+       uptime: 00:00:07.597 (0.730000)
+   processors: 2
+       drift : 0
+memory(t/u/f): 114/64/49
+     encoding: UTF-8
+     timezone: Asia/Kolkata (India Time) +05:30
+watch service: sun.nio.fs.LinuxWatchService
+  metrics dir: null
+        clock: 1739170375 2025-02-10T06:52:55.688110Z
+ thread count: 68
+ peak threads: 69
+ user threads: 63
+        Thread[Reference Handler,10,system]
+        Thread[Finalizer,8,system]
+        Thread[Signal Dispatcher,9,system]
+        Thread[Notification Thread,9,system]
+        Thread[pool-1-thread-1,5,main]
+        Thread[Q2-e4d412d4-a25f-4c2d-8b13-f234d43e2277,5,main]
+        Thread[DestroyJavaVM,5,main]
+        Thread[FileSystemWatchService,5,main]
+        Thread[Timer-0,5,main]
+        Thread[BC Entropy Daemon,5,main]
+        Thread[BC Disposal Daemon,5,main]
+        Thread[pool-3-thread-1,5,main]
+        Thread[mysql-cj-abandoned-connection-cleanup,5,main]
+        Thread[C3P0PooledConnectionPoolManager[identityToken->2s38lhb81u7mp57yynowm|602f06bd]-AdminTaskTimer,5,main]
+        Thread[C3P0PooledConnectionPoolManager[identityToken->2s38lhb81u7mp57yynowm|602f06bd]-HelperThread-#0,5,main]
+        Thread[C3P0PooledConnectionPoolManager[identityToken->2s38lhb81u7mp57yynowm|602f06bd]-HelperThread-#1,5,main]
+        Thread[C3P0PooledConnectionPoolManager[identityToken->2s38lhb81u7mp57yynowm|602f06bd]-HelperThread-#2,5,main]
+        Thread[Hibernate be5698bd-bbc7-4fc5-a8d3-c5efda1f3a51,5,main]
+        Thread[default-update-timestamps-region.data,5,main]
+        Thread[Statistics Thread-Hibernate be5698bd-bbc7-4fc5-a8d3-c5efda1f3a51-1,5,main]
+        Thread[default-query-results-region.data,5,main]
+        Thread[Thread-10,5,main]
+        Thread[pool-5-thread-1,5,main]
+        Thread[Timer-1,5,main]
+        Thread[txnmgr-main-0:idle,5,main]
+        Thread[txnmgr-main-1:idle,5,main]
+        Thread[pool-6-thread-1,5,main]
+        Thread[txnmgr-main-input-queue-monitor,5,main]
+        Thread[Timer-2,5,main]
+        Thread[txnmgr-rupay1-0:idle,5,main]
+        Thread[txnmgr-rupay1-1:idle,5,main]
+        Thread[pool-7-thread-1,5,main]
+        Thread[txnmgr-rupay1-input-queue-monitor,5,main]
+        Thread[Timer-3,5,main]
+        Thread[txnmgr-worldline1-0:idle,5,main]
+        Thread[txnmgr-worldline1-1:idle,5,main]
+        Thread[pool-8-thread-1,5,main]
+        Thread[txnmgr-worldline1-input-queue-monitor,5,main]
+        Thread[Timer-4,5,main]
+        Thread[txnmgr-titan-0:idle,5,main]
+        Thread[txnmgr-titan-1:idle,5,main]
+        Thread[pool-9-thread-1,5,main]
+        Thread[txnmgr-titan-input-queue-monitor,5,main]
+        Thread[Timer-5,5,main]
+        Thread[txnmgr-middleware-0:idle,5,main]
+        Thread[txnmgr-middleware-1:idle,5,main]
+        Thread[pool-10-thread-1,5,main]
+        Thread[txnmgr-middleware-input-queue-monitor,5,main]
+        Thread[Timer-6,5,main]
+        Thread[txnmgr-hitachi1-0:idle,5,main]
+        Thread[txnmgr-hitachi1-1:idle,5,main]
+        Thread[pool-11-thread-1,5,main]
+        Thread[txnmgr-hitachi1-input-queue-monitor,5,main]
+        Thread[Thread-41,5,main]
+        Thread[Thread-42,5,main]
+        Thread[SystemMonitor,5,main]
+        Thread[pool-2-thread-1,5,main]
+        Thread[server-POS-ThreadPool.PooledThread-0,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-1,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-2,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-3,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-4,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-5,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-6,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-7,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-8,5,server-POS-ThreadPool-0]
+        Thread[server-POS-ThreadPool.PooledThread-9,5,server-POS-ThreadPool-0]
+        Thread[Common-Cleaner,8,InnocuousThreadGroup]
+name-registrar:
+  Q2: org.jpos.q2.Q2
+  tspace:org.jpos.transaction.TransactionManager@21ffe19c: org.jpos.space.TSpace
+    <key count='1'>$TAIL</key>
+    <key count='1'>$HEAD</key>
+     key-count: 2
+        gcinfo: 0,0
+  tspace:txnmgr-rupay1: org.jpos.space.TSpace
+    <key count='1'>$TAILLOCK.662557103</key>
+     key-count: 1
+        gcinfo: 0,0
+  txnmgr-hitachi1: org.jpos.transaction.TransactionManager
+    in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/1000, tps=0, peak=0, avg=0.00
+  tspace:org.jpos.transaction.TransactionManager@277dd1af: org.jpos.space.TSpace
+    <key count='1'>$TAIL</key>
+    <key count='1'>$HEAD</key>
+     key-count: 2
+        gcinfo: 0,0
+  tspace:txnmgr-hitachi1: org.jpos.space.TSpace
+    <key count='1'>$TAILLOCK.1736991718</key>
+     key-count: 1
+        gcinfo: 0,0
+  txnmgr-titan: org.jpos.transaction.TransactionManager
+    in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/1000, tps=0, peak=0, avg=0.00
+  tspace:txnmgr-main: org.jpos.space.TSpace
+    <key count='1'>$TAILLOCK.815147919</key>
+     key-count: 1
+        gcinfo: 0,0
+  mux.mux-hitachi1: org.jpos.q2.iso.QMUX
+    tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+  txnmgr-main: org.jpos.transaction.TransactionManager
+    in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/1000, tps=0, peak=0, avg=0.00
+  tspace:org.jpos.transaction.TransactionManager@379349a2: org.jpos.space.TSpace
+    <key count='1'>$TAIL</key>
+    <key count='1'>$HEAD</key>
+     key-count: 2
+        gcinfo: 0,0
+  logger.Q2.sim: org.jpos.util.Logger
+  tspace:txnmgr-middleware: org.jpos.space.TSpace
+    <key count='1'>$TAILLOCK.748864754</key>
+     key-count: 1
+        gcinfo: 0,0
+  tspace:dbconfig: org.jpos.space.TSpace
+    key-count: 0
+        gcinfo: 0,0
+  tspace:org.jpos.transaction.TransactionManager@30962b8f: org.jpos.space.TSpace
+    <key count='1'>$TAIL</key>
+    <key count='1'>$HEAD</key>
+     key-count: 2
+        gcinfo: 0,0
+  tspace:default: org.jpos.space.TSpace
+     key-count: 0
+        gcinfo: 0,0
+  tspace:txnmgr-worldline1: org.jpos.space.TSpace
+    <key count='1'>$TAILLOCK.570417564</key>
+     key-count: 1
+        gcinfo: 0,0
+  txnmgr-rupay1: org.jpos.transaction.TransactionManager
+    in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0.00
+  mux.mux-rupay1: org.jpos.q2.iso.QMUX
+    tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+  tspace:txnmgr-titan: org.jpos.space.TSpace
+    <key count='1'>$TAILLOCK.932399522</key>
+     key-count: 1
+        gcinfo: 0,0
+  tspace:org.jpos.transaction.TransactionManager@678863e6: org.jpos.space.TSpace
+    <key count='1'>$TAIL</key>
+    <key count='1'>$HEAD</key>
+     key-count: 2
+        gcinfo: 0,0
+  txnmgr-middleware: org.jpos.transaction.TransactionManager
+    in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/1000, tps=0, peak=0, avg=0.00
+  server-POS: org.jpos.q2.iso.QServer
+  mux.mux-worldline1: org.jpos.q2.iso.QMUX
+    tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+  logger.Q2: org.jpos.util.Logger
+  logger.: org.jpos.util.Logger
+  logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  tspace:org.jpos.transaction.TransactionManager@2ca2c4f2: org.jpos.space.TSpace
+    <key count='1'>$TAIL</key>
+    <key count='1'>$HEAD</key>
+     key-count: 2
+        gcinfo: 0,0
+  EFSGlobalData: java.util.Properties
+  server.server-POS: org.jpos.iso.ISOServer
+    connected=0, rx=0, tx=0, last=0
+  mux.mux-hsm: org.jpos.q2.iso.QMUX
+    tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+  txnmgr-worldline1: org.jpos.transaction.TransactionManager
+    in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0.00
+  channel-adapter-hitachi1: org.jpos.q2.iso.OneShotChannelAdaptorMK2
+  </info>
+</log>
+<log realm="channel-adapter-hitachi1" at="2025-02-10T12:22:55.716732" lifespan="156ms">
+  <status>
+    Channel is now online
+  </status>
+</log>
+<log realm="stdout" at="2025-02-10T12:22:56.172537" lifespan="500ms">
+    HitachiLogonTask run v1.3
+</log>
+<log realm="logonmanager-hitachi1" at="2025-02-10T12:22:56.672649">
+  <info>
+    sleeping
+    6004 secs until Mon Feb 10 14:03:00 IST 2025
+  </info>
+</log>
